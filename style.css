@@ -1,0 +1,58 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Open Sans', serif, sans-serif;
+}
+body{
+    background-color: #3F4568;
+}
+
+.container 
+{ 
+
+  width: 100%;
+}
+.main
+{ 
+    margin-top : 150px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#game 
+{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+#game div
+{
+
+padding: 50px;
+ border: 1px solid #000;
+
+}
+.joueurTour 
+{
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align:center;
+}
+.score{
+    margin-left: 30px;
+    padding-bottom: 20px;
+  color: #fff;
+}
+.button { 
+    padding: 15px 30px;
+    margin: 20px 20px;
+}
+.symboles{
+    color: #fff;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
